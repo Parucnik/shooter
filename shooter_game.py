@@ -139,7 +139,7 @@ while running:
             enemy.rect.y = 0
             enemy.rect.x = randint(1, 600)
             enemies.add(enemy)
-    if destroeyed >= 10:
+    if destroeyed >= 15:
         text_lose = font1.render('You win!!!', 1, (255, 255, 255))
         window.blit(text_lose, (300, 240))
         display.update()
